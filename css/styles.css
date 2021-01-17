@@ -1,0 +1,215 @@
+:root {
+    --emphasis-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+    --main-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+/* ======GENERAL======= */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--emphasis-color);
+}
+
+/* ======HEADER======= */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-accent-color {
+    color: var(--accent-color);
+}
+
+.nav-list-link,
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--emphasis-color);
+    text-decoration: none;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.nav-list-item,
+.header-contats-item {
+    list-style-type: none;
+}
+
+.logo:hover,
+.logo:focus,
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+[href="tel:+380961111111"] {
+    color: var(--text-color);
+}
+
+/* ======HERO======= */
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #757575; /* <--- Чтобы было видно */
+}
+
+.hero-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* ======FEATURES======= */
+
+.feature-list-item {
+    list-style-type: none;
+}
+
+.feature-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--emphasis-color);
+}
+
+.feature-text,
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* ======WHAT WE DO======= */
+
+.we-do-item {
+    list-style-type: none;
+}
+
+/* ======OUR TEAM======= */
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: var(--emphasis-color);
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-list-item {
+    list-style-type: none;
+}
+
+.team-link {
+    text-decoration: none;
+}
+
+/* ======FOOTER======= */
+
+.footer-contacts-link {
+    text-decoration: none;
+}
+
+.address {
+    color: #ffffff;
+    font-style: normal;
+    background-color: #757575; /* <----Для фона, чтобы выделялось*/
+}
+
+[href="mailto:info@example.com"],
+[href="tel:+380991111111"] {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    background-color: #757575; /* <----Для фона, чтобы выделялось*/
+}
+
+
+/* ======PORTFOLIO======= */
+
+/* ======BUTTONS======= */
+
+.projects-list-item {
+    list-style-type: none;
+}
+
+.projects-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--empasis-color);
+}
+
+.projects-button:hover,
+.projects-button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+/* ======PROJECTS======= */
+
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--emphasis-color);
+}
+
+.projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.projects-link {
+    text-decoration: none;
+}
