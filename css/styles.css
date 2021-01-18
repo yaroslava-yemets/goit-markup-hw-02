@@ -2,6 +2,8 @@
     --emphasis-color: #212121;
     --accent-color: #2196F3;
     --text-color: #757575;
+    --bcg-footer-color: #2f303a;
+    --link-footer-color: rgba(255, 255, 255, 0.6);
     --main-font: "Roboto", sans-serif;
 }
 
@@ -27,8 +29,15 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
-    color: #000000;
     text-decoration: none;
+}
+
+ .black-logo {
+    color: #000000;
+}
+
+.white-logo {
+    color: #ffffff;
 }
 
 .logo-accent-color {
@@ -54,8 +63,10 @@ body {
     list-style-type: none;
 }
 
-.logo:hover,
-.logo:focus,
+.header-contacts-link.number,
+.header-contacts-link.mail {
+    color: var(--text-color);
+}
 .nav-list-link:hover,
 .nav-list-link:focus,
 .header-contacts-link:hover,
@@ -63,13 +74,14 @@ body {
     color: var(--accent-color);
 }
 
-[href="tel:+380961111111"] {
-    color: var(--text-color);
-}
 
 /* ======HERO======= */
 
 .hero {
+    background-color: var(--bcg-footer-color);
+}
+
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -77,7 +89,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #757575; /* <--- Чтобы было видно */
 }
 
 .hero-link {
@@ -122,6 +133,10 @@ body {
 
 /* ======OUR TEAM======= */
 
+.our-team {
+    background-color: #F5F4FA;
+}
+
 .team-subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -148,6 +163,10 @@ body {
 
 /* ======FOOTER======= */
 
+.footer {
+    background-color: var(--bcg-footer-color);
+}
+
 .footer-contacts-link {
     text-decoration: none;
 }
@@ -155,18 +174,16 @@ body {
 .address {
     color: #ffffff;
     font-style: normal;
-    background-color: #757575; /* <----Для фона, чтобы выделялось*/
 }
 
-[href="mailto:info@example.com"],
-[href="tel:+380991111111"] {
+.footer-contacts-link.mail,
+.footer-contacts-link.number {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--link-footer-color);
     font-style: normal;
-    background-color: #757575; /* <----Для фона, чтобы выделялось*/
 }
 
 
@@ -185,6 +202,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--empasis-color);
+    background-color:#F5F4FA;
 }
 
 .projects-button:hover,
